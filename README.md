@@ -1,7 +1,7 @@
 # HEMMIR — Hierarchical Explainable Multimodal Modality-Information Retrieval
 
 **Industrial RAG System for Scania Manufacturing Documents**
-MSc Thesis · Umeå University · Author: Ravindra Kumar · External Supervisor: Swathi Rao (Scania)
+
 
 ---
 
