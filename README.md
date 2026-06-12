@@ -307,21 +307,11 @@ HEMMIR_SCANIA_THESIS_FINAL/
 │       └── multiformat_models.py ← Multi-format ingestion models
 │
 ├── app_workspace/                ← Scania source documents (23 folders, PDF + PPTX)
-│   ├── 2025-10-09_Tightening-Sequence/
-│   ├── 2025-10-24_SFL-update-ACG/
-│   ├── 2025-11-26_Inbolt-Tests/
-│   ├── 2025-12-11_Position-deviation-compensation-in-assembly-INBOLT/
-│   ├── AprisoConfigurations/
-│   ├── Assembly Steps/
-│   ├── Flex Line plan/
-│   ├── Flexible Assembly Line/
-│   ├── HRC_QualityStation_Doc/
-│   ├── Layout/
-│   ├── Phase1_FlexLine/
-│   ├── Risk Assessment for station/
-│   ├── Risk Identification Tightening Automation/
-│   ├── Vanguard/
-│   └── ... (23 Scania documents total)
+│   ├── <project-1>/
+│   ├── <project-2>/
+│   ├── <project-3>/
+│   ├── ...
+│   └── (23 Scania documents total — folder names withheld for confidentiality)
 │
 ├── chroma_app/                   ← Default pre-indexed ChromaDB (99 MB)
 │                                    app.py uses this path by default on startup
