@@ -1,7 +1,28 @@
 # HEMMIR - Hierarchical Explainable Multimodal Modality-Information Retrieval
 
-**Industrial RAG System for Manufacturing Documents**
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![Streamlit](https://img.shields.io/badge/streamlit-app-FF4B4B)
+![License](https://img.shields.io/badge/license-MIT-green)
 
+**An explainable, multimodal RAG pipeline for industrial documents — with built-in confidence scoring and automatic self-correction.**
+
+HEMMIR ingests PDF/PPTX documents, retrieves evidence with hybrid BM25 + dense search, generates claim-verified answers (ArgRAG), and scores every answer with a composite confidence signal (C) — automatically repairing low-confidence answers via re-retrieval or re-synthesis.
+
+![HEMMIR routing flow](hemmir_routing_flowchart.png)
+
+---
+
+## Quick Start
+
+```bash
+git clone git@github.com:ravinpandey/HEMMIR_SCANIA_THESIS_FINAL.git
+cd HEMMIR_SCANIA_THESIS_FINAL
+pip install streamlit chromadb openai anthropic boto3 botocore sentence-transformers rank-bm25 pydantic loguru tqdm Pillow python-dotenv open-clip-torch torch docling
+export OPENAI_API_KEY="sk-..."
+streamlit run app.py --server.port 8501
+```
+
+Open `http://localhost:8501` — the app loads with a pre-indexed ChromaDB so you can start querying immediately. See [Prerequisites](#prerequisites) for full setup details.
 
 ---
 
