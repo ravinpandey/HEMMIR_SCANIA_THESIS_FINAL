@@ -1,4 +1,4 @@
-# HEMMIR — Hierarchical Explainable Multimodal Modality-Information Retrieval
+# HEMMIR - Hierarchical Explainable Multimodal Modality-Information Retrieval
 
 **Industrial RAG System for Manufacturing Documents**
 
