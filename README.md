@@ -1,6 +1,6 @@
 # HEMMIR — Hierarchical Explainable Multimodal Modality-Information Retrieval
 
-**Industrial RAG System for Scania Manufacturing Documents**
+**Industrial RAG System for Manufacturing Documents**
 
 
 ---
