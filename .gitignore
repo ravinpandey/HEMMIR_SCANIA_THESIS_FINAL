@@ -1,0 +1,23 @@
+# Vector DBs (regenerate via ingestion pipeline)
+chroma_app/
+chroma_scania/
+
+# Uploaded documents / workspace data (may contain confidential content)
+app_workspace/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
